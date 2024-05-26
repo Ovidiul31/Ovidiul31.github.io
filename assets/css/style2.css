@@ -496,6 +496,7 @@ h6 {
   background: url("../img/hero-bg.jpg") top left;
   background-size: cover;
   position: relative;
+  opacity: 1;
 }
 #hero:before {
   content: "";
@@ -505,6 +506,8 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+  opacity: 0.5
+  ;
 }
 #hero .container {
   position: relative;
@@ -514,14 +517,14 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color: salmon;
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
   color: var(--mycolor);
 }
 #hero h2 {
-  color: #555555;
+  color: aqua;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
